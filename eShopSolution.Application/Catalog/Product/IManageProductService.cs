@@ -23,7 +23,7 @@ namespace eShopSolution.Application.Catalog.Product
         Task<int> Delete(int productId);
 
 
-        Task<PagedResuilt<ProductViewModel>> GetAllPaging(GetProductPagingRequest request);
+        Task<PagedResult<ProductViewModel>> GetAllPaging(GetProductPagingRequest request);
     }
 
     
